@@ -3,7 +3,7 @@ AtherosE2200Ethernet
 
 Qualcomm Atheros Killer E2200 driver for macOS
 
-## Key Features of the Driver
+## Key Features of AtherosE2200Ethernet
   - Supports Qualcomm Atheros AR816x, AR817x, Killer E220x, Killer E2400 and Killer E2500.
   - Support for multisegment packets relieving the network stack of unnecessary copy operations when assembling packets for transmission.
   - No-copy receive and transmit. Only small packets are copied on reception because creating a copy is more efficient than allocating a new buffer.
@@ -38,6 +38,12 @@ Otherwise you have to keep AppleVTD disabled, because it is incompatible with yo
 
 ## Installation
 Use OpenCore or Clover to inject the kext.
+
+## Contributions ##
+
+If you find my projects useful, please consider to buy me a cup of coffee: https://buymeacoffee.com/mieze
+
+Thank you for your support! Your contribution helps me to continue development.
 
 ## Troubleshooting
   - Disabling Energy Efficient Ethernet (EEE) may be required to avoid situations in which the link gets lost randomly.
